@@ -16,7 +16,7 @@ public class StudentSelect {
                     "1234"
             );
 
-            System.out.println("Connected Successfully ✅");
+            System.out.println("Connected Successfully ");
 
             String sql = "SELECT * FROM student";
             Statement st = con.createStatement();
